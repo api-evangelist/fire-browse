@@ -1,0 +1,66 @@
+{
+    "name": "Fire Browse",
+    "description": "<p>A simple and elegant way to explore cancer data. Sitting above one of the deepest and most integratively characterized open cancer datasets in the world. Backed by a powerful computational infrastructure, application programming interface (API), graphical tools and online reports. With over 80K sample aliquots from 11,000+ cancer patients, spanning 38 unique disease cohorts.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/firebrowse.png",
+    "tags": [
+        "api provider",
+        "cancer",
+        "data provider",
+        "general data",
+        "have api",
+        "have swagger"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/fire-browse\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Fire Browse Beta API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/firebrowse.png",
+            "humanURL": "http:\/\/firebrowse.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/fire-browse-beta-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/fire-browse-beta-api-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "FireBrowse Beta API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/firebrowse.png",
+            "humanURL": "http:\/\/firebrowse.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/firebrowse-beta-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/firebrowse-beta-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28579-2019-09-03-21-06-13.json"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/firebrowse.org"
+        }
+    ]
+}
