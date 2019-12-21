@@ -10,8 +10,8 @@
         "have api",
         "have swagger"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/fire-browse\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -25,11 +25,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/fire-browse-beta-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/fire-browse\/master\/fire-browse-beta-api-openapi.json"
                 },
                 {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/fire-browse-beta-api-postman-collection.json"
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/fire-browse-beta-api.json"
                 }
             ]
         },
@@ -43,17 +43,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/firebrowse-beta-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/fire-browse\/master\/firebrowse-beta-api-openapi.json"
                 },
                 {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/firebrowse-beta-api-postman-collection.json"
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/firebrowse-beta-api.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Swagger",
             "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/28579-2019-09-03-21-06-13.json"
