@@ -1,5 +1,5 @@
 {
-    "id": "d7dd0a6ad397bd6adb5c0376b7f66089",
+    "id": "0bd0e141aa9d6f748adb1b496110ed12",
     "name": "FireBrowse Beta API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "0a4ac7e235d7d533457faa2dbbd7b55f",
+            "id": "aff2b53b5acdaaf056804634f62713ad",
             "name": "Retrieve all data by genes Gistic2 results.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/CopyNumber\/Genes\/All",
             "description": "This service provides access to the Gistic2 all_data_by_genes.txt output data. This data is a gene-level table of copy number values for all samples. The returned copy number values are in units (copy number - 2) so that no amplification or deletion is 0, genes with amplifications have positive values, and genes with deletions are negative values. The data are converted from marker level to gene level using the extreme method: a gene is assigned the greatest amplification or the least deletion v",
@@ -79,11 +79,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "2556bfce84c1d59870778596e9e91a8b",
+            "id": "add4286ca14924e45956fa35961a97a0",
             "name": "Retrieve Gistic2 significantly amplified genes results.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/CopyNumber\/Genes\/Amplified",
             "description": "This service provides access to the Gistic2 amp_genes.conf_99.txt output data.  At least 1 gene or cohort must be supplied.",
@@ -152,11 +152,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "084c79b91b656f3dce95694454ea973e",
+            "id": "ff05c7d1ef6859df19816309f501681a",
             "name": "Retrieve Gistic2 significantly deleted genes results.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/CopyNumber\/Genes\/Deleted",
             "description": "This service provides access to the Gistic2 del_genes.conf_99.txt output data.  At least 1 gene or cohort must be supplied.",
@@ -225,11 +225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "f96a53b79a534eac714d21593d5e7d5b",
+            "id": "6370b69242a7018e9e25e21f2ec4d51d",
             "name": "Retrieve focal data by genes Gistic2 results.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/CopyNumber\/Genes\/Focal",
             "description": "This service provides access to the Gistic2 focal_data_by_genes.txt output data. This output is similar to the all_data_by_genes.txt output, but using only focal events with lengths greater than the  focal length cutoff. This data is a gene-level table of copy number values for all samples. The returned copy number values are in units (copy number - 2) so that no amplification or deletion is 0, genes with amplifications have positive values, and genes with deletions are negative values. The data",
@@ -298,11 +298,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "c05eb1646be8e25d31a9668ec8a9d7be",
+            "id": "124d22af10e3665e0fb45ec39b3a35c8",
             "name": "Retrieve all thresholded by genes Gistic2 results.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/CopyNumber\/Genes\/Thresholded",
             "description": "This service provides access to the Gistic2 all_thresholded_by_genes.txt output data. A gene-level table of discrete amplification and deletion indicators for all samples. A table value of 0 means no amplification or deletion above the threshold. Amplifications are positive numbers: 1 means amplification above the amplification threshold; 2 means amplifications larger to the arm level amplifications observed for the sample. Deletions are represented by negative table values: -1 represents deleti",
@@ -371,11 +371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "cfb5494c6bd31bfd05e89e94bb5bf2ba",
+            "id": "8670424d56c2ff3e13bb6d3a31a4fb4b",
             "name": "Retrieve aggregated analysis features table.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/FeatureTable",
             "description": "This service returns part or all of the so-called <strong>feature table<\/strong>; which aggregates the most important findings across ALL pipelines in the GDAC Firehose analysis workflow into a single table for simple access.  One feature table is created per disease cohort.  Results may be filtered by date or cohort, but at least 1 cohort must be specified here. For more details please visit the <a href=https:\/\/confluence.broadinstitute.org\/display\/GDAC\/Documentation\\#Documentation-FeatureTable",
@@ -437,11 +437,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "4833ade32e64eb3702a1be32144d549b",
+            "id": "99d76c5b41109748a605818d6d1886eb",
             "name": "Retrieve MutSig final analysis MAF.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/Mutation\/MAF",
             "description": "This service returns columns from the MAF generated by MutSig. Results may be filtered by gene, cohort, tool, or barcode, but at least one gene OR barcode OR cohort must be given.  By default a subset consisting of the most commonly used columns will be returned, but that can be modified with the column parameter. Specifying 'all' in this parameter is a convenient way to return every column of the respective MAF, and has precedence over any any other column selection expression.  The complete li",
@@ -524,11 +524,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "8ca0ad9ff911bbe85e0fc4705c67559b",
+            "id": "e55b7df930f4f9c2c9aec86835bbffc3",
             "name": "Retrieve Significantly Mutated Genes (SMG).",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/Mutation\/SMG",
             "description": "This service provides a list of significantly mutated genes, as scored by MutSig.  It may be filtered by cohort, rank, gene, tool and\/or Q-value threshold, but at least one cohort or gene must be supplied.",
@@ -611,11 +611,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "1d2aeb15302bb45bd4e7910c31855f35",
+            "id": "c2e4a54c9efb22ded35a83af959b3bfb",
             "name": "Retrieve links to summary reports from Firehose analysis runs.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/Reports",
             "description": "This service returns URLs to the analysis result reports for runs of the Broad Institute GDAC Firehose analysis pipeline. At least one year of run reports are maintained in the database, but the reports from the latest run will be returned by default. The set of <a href=\"https:\/\/confluence.broadinstitute.org\/display\/GDAC\/Nozzle\">Nozzle<\/a> reports returned may be filtered by disease cohort, report type and report name.",
@@ -691,11 +691,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "84638952a7c49bc36b1e957ff2f768f3",
+            "id": "c06a5623438ef3e8fc97b5b1ff161dac",
             "name": "Returns RNASeq expression quartiles, e.g. suitable for drawing a boxplot.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Analyses\/mRNASeq\/Quartiles",
             "description": "For a given gene compute quartiles and extrema, suitable e.g. for drawing a boxplot (Tukey 1977).  Results may be filtered by cohort, sample type, patient barcode  or characterization protocol, and are returned sorted by cohort.  Note that samples for which no expression value was recorded (e.g. <a href=\"http:\/\/firebrowse.org\/api\/v1\/Samples\/mRNASeq?&gene=egfr&cohort=SKCM&tcga_participant_barcode=TCGA-GN-A262\">the melanoma sample TCGA-GN-262<\/a>) are removed prior to calculation.",
@@ -757,11 +757,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "e54a0e0126db52aa733757ddb100b82d",
+            "id": "76cfd813f524f8454d1336d020f7506b",
             "name": "Retrieve standard data archives.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Archives\/StandardData",
             "description": "This service returns the archive URLs for our Firehose standard data runs, providing a RESTful interface similar in spirit to the command line <a href=\"https:\/\/confluence.broadinstitute.org\/display\/GDAC\/Download\">firehose_get<\/a> tool. The archives can be filtered based on date, cohort, data type, platform, center, data level, and protocol.",
@@ -865,11 +865,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "8bc05ec4c07a2786f4ad92a04ced4146",
+            "id": "958c0ef113b8b95a5bbbaadce5854e78",
             "name": "Obtain identities of TCGA consortium member centers.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/Centers",
             "description": "By default this function returns a table of all consortium members in TCGA, aka centers; it provides both the HTTP domain and full organizational name of each center.  A subset of this table may be obtained by explicitly specifying one or more domain names.",
@@ -903,11 +903,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "cd69df8070ff443270a3a717b75ac629",
+            "id": "da1b3851df530bef5f082034b19a235e",
             "name": "Retrieve names of all TCGA clinical data elements (CDEs).",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/ClinicalNames",
             "description": "Retrieve names of all patient-level clinical data elements (CDES) available in TCGA, unioned across all disease cohorts. A CDE will be listed here only when it has a value other than NA for at least 1 patient case in any disease cohort. For more information on how these CDEs are processed see our <a href=\"https:\/\/confluence.broadinstitute.org\/display\/GDAC\/Documentation\">pipeline documentation<\/a>.",
@@ -934,11 +934,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "f35422eb094f065ce571599bbff8dad6",
+            "id": "e24b194a38d3460280b998525a9127f8",
             "name": "Retrieve names of CDEs normalized by Firehose and selected for analyses.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/ClinicalNames_FH",
             "description": "This service returns the names of patient-level clinical data elements (CDEs) that have been normalized by Firehose for use in analyses, unioned across all disease cohorts. For more information on how these CDEs are processed, see our <a href=\"https:\/\/confluence.broadinstitute.org\/display\/GDAC\/Documentation\">pipeline documentation<\/a>.",
@@ -965,11 +965,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "8967c93ea1c62aeb03604eeffa97aaf3",
+            "id": "cce23a735c2bb30b624d45d4f3117456",
             "name": "Translate TCGA cohort abbreviations to full disease names.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/Cohorts",
             "description": "By default this function returns a table containing all TCGA cohort abbreviations and their corresponding disease names.  A subset of that table may be obtained by explicitly specifying one or more cohort abbreviations.",
@@ -1003,11 +1003,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "3fce8ab08f53118b60e62cdbe8f82c5d",
+            "id": "72f22487380eb9e5bb6773ba3e08addc",
             "name": "Retrieve sample counts.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/Counts",
             "description": "Returns the aliquot counts for each disease cohort, per sample\ntype and data type.  The sample type designation of \"Tumor\"\nmay be used to aggregate the count of all tumor aliquots into\na single number per disease and data type. See the SampleTypes\nfunction for a complete description of sample types.",
@@ -1076,11 +1076,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "9a0419c7748f9bc796f26f55ca232a2c",
+            "id": "84a166e33b7c2d633fe7bdddc075db99",
             "name": "Retrieve dates of all GDAC Firehose stddata & analyses runs that have been ingested into FireBrowse.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/Dates",
             "description": "",
@@ -1107,11 +1107,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "5348025de8e3157033f5f0c582726b0e",
+            "id": "379d7ed497c34dde3f0c74d1c065b0f2",
             "name": "Simple way to discern whether API server is up and running",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/HeartBeat",
             "description": "Returns a message to indicate that API (server) is up and running, or times out if not.",
@@ -1138,11 +1138,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "ecf79512e7998893489286dc34686173",
+            "id": "9bf53ad1ca35f19e35ce2931cb7800b4",
             "name": "Retrieve names of all columns in the mutation annotation files (MAFs) served by FireBrowse.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/MAFColNames",
             "description": "Retrieve the names of all columns in the mutation annotation files (MAFs) hosted by FireBrowse.  For more information on the mutation data, and how it is processed by Firehose, please consult the <a href=\"https:\/\/confluence.broadinstitute.org\/display\/GDAC\/Documentation#Documentation-MutationPipelines\">pipeline documentation<\/a>.",
@@ -1169,11 +1169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "0503c2eb221ebd82deb799b322b77278",
+            "id": "d91398b59c0d0e14351207f1fc08902e",
             "name": "Retrieve list of all TCGA patients.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/Patients",
             "description": "This service returns a list of all TCGA patient barcodes in FireBrowse, optionally filtered by disease cohort.  The barcodes are obtained directy from the clinical data.",
@@ -1228,11 +1228,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "d370a65c1a1d96312a480f26b62f5aa9",
+            "id": "99a2775a0c3228c9eb1c57cb72054627",
             "name": "Translate TCGA platform codes to full platform names.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/Platforms",
             "description": "By default this function returns a table of all of the technology platforms used to sequence or characterize samples in TCGA--both their short platform codes and full names.  A subset of this table may be obtained by explicitly specifying one or more platform codes.",
@@ -1266,11 +1266,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "7620ccbc17c0214379f1acc27222253a",
+            "id": "95e8f44fe8ef6a2336b96ac4d0dc0d65",
             "name": "Given a TCGA barcode, return its short letter sample type code.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/SampleType\/Barcode\/{TCGA_Barcode}",
             "description": "",
@@ -1304,11 +1304,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "0465c9ff40cf223cd3bea3409300155d",
+            "id": "ea4ee7bf620423c43afa139609058a1b",
             "name": "Translate from numeric to symbolic TCGA sample codes.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/SampleType\/Code\/{code}",
             "description": "Convert a TCGA numeric sample type code (e.g. 01, 02) to its corresponding symbolic (short letter) code (e.g. TP, TR).",
@@ -1342,11 +1342,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "33dcd6a8f0b6b728d8fadf6d353cca07",
+            "id": "120b2dfe0a0ebae9a5e21a399acbd64c",
             "name": "Translate from symbolic to numeric TCGA sample codes.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/SampleType\/ShortLetterCode\/{short_letter_code}",
             "description": "Convert a TCGA sample type code in symbolic form (or 'short letter code' like TP, TR) to its corresponding numeric form (e.g. 01, 02).",
@@ -1380,11 +1380,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "8e982d5fb0e6f86743aef60486394287",
+            "id": "b7a05c9be745fa679e0ca55b4bd6af1d",
             "name": "Return all TCGA sample type codes, both numeric and symbolic.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/SampleTypes",
             "description": "",
@@ -1411,11 +1411,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "e13c9dc9dc110635e8d9da6f95a5d65d",
+            "id": "4ddf021d62c0f7468f45ac22a667ad2a",
             "name": "Obtain identities of tissue source sites in TCGA.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Metadata\/TSSites",
             "description": "By default this function returns a table of all sites which contributed source tissue to TCGA, aka TSS's. A subset of this table may be obtained by explicitly specifying one or more sites.",
@@ -1449,11 +1449,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "0c3b379f8aea09408ccd22113ef3317a",
+            "id": "ee3d14062f825e7b367ff78a02836f86",
             "name": "Retrieve TCGA CDEs verbatim, i.e. not normalized by Firehose.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Samples\/Clinical",
             "description": "This service returns patient clinical data from TCGA, verbatim. It differs from the Samples\/Clinical_FH method by providing access to all TCGA CDEs in their original form, not merely the subset of CDEs normalized by Firehose for analyses.  Results may be selected by disease cohort, patient barcode or CDE name, but at least one cohort, barcode, or CDE must be provided. When filtering by CDE note that only when a patient record contains one or more of the selected CDEs will it be returned. Visit t",
@@ -1522,11 +1522,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "ff3a433af8e28b9e6a26f71d967381b7",
+            "id": "69ec3b05fb3a3d2eeb7f5dd5e1ad5626",
             "name": "Retrieve CDEs normalized by Firehose and selected for analyses.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Samples\/Clinical_FH",
             "description": "This service returns patient-level clinical data elements (CDEs) that have been normalized by Firehose for use in analyses. Results may be selected by disease cohort, patient barcode or CDE name, but at least one cohort, barcode or CDE must be provided. When filtering by CDE note that only when a  patient record contains one or more of the selected CDEs will it be returned. Visit <a href=\"http:\/\/gdac.broadinstitute.org\/runs\/info\/clinical\">this table of CDEs<\/a> to see what's available for every ",
@@ -1595,11 +1595,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "5928bf0adbafe2266f03f1f4dadddf7a",
+            "id": "2f35aa53cd6ce86cc26ba3418fd167a5",
             "name": "Retrieve mRNASeq data.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Samples\/mRNASeq",
             "description": "This service returns sample-level log2 mRNASeq expression values. Results may be filtered by gene, cohort, barcode, sample type or characterization protocol, but at least one gene must be supplied.",
@@ -1682,11 +1682,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         },
         {
-            "id": "99091ba10751afbb0a7bf56026bb7cdf",
+            "id": "8f9216a79d4e6b65ced846aabdb1ee95",
             "name": "Retrieve miRSeq data.",
             "url": "http:\/\/firebrowse.org\/api\/v1\/Samples\/miRSeq",
             "description": "This service returns sample-level log2 miRSeq expression values. Results may be filtered by miR, cohort, barcode, sample type or Firehose preprocessing tool, but at least one miR must be supplied.",
@@ -1769,7 +1769,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d7dd0a6ad397bd6adb5c0376b7f66089",
+            "collectionId": "0bd0e141aa9d6f748adb1b496110ed12",
             "rawModeData": ""
         }
     ]
